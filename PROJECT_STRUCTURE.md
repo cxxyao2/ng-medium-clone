@@ -1,0 +1,15 @@
+/app
+  /article
+   /components
+   /store
+   /types
+   /services
+    article.service.ts
+  /globalFeed
+    /components
+      /globalFeed
+    globalFeed.routes
+   /shared
+    /cmponents
+      /backendErrorMessages
+        backendErrorMessages.comoponent.ts
