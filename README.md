@@ -1,27 +1,33 @@
 # MediumcloneAngular
+THis Angular Project is with NgRx State Management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+## Overview
 
-## Development server
+This project is a robust and scalable web applications using Angular and NgRx for state management. It features a secure backend built with C# and SQL Server to handle data operations and user authentication.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Key Features
 
-## Code scaffolding
+- **NgRx for State Management:** Implemented NgRx to manage the application's state efficiently, providing a predictable and consistent state across components.
+- **Secure Backend:** Developed a backend using C# with secure authentication and authorization mechanisms, ensuring data integrity and user privacy.
+- **SQL Server Database:** Utilized SQL Server for reliable data storage and retrieval, supporting complex queries and data relationships.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Project Structure
 
-## Build
+- **Frontend (Angular + NgRx):**
+  - `@ngrx/store`: Used for managing application state.
+  - `@ngrx/effects`: Managed side effects like API calls, ensuring clean and maintainable code.
+  - `@ngrx/entity`: Simplified the management of entity collections.
+  - `@ngrx/router-store`: Integrated NgRx with Angular's router for seamless navigation state management.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Backend (C# + SQL Server):**
+  - **ASP.NET Core:** Developed a RESTful API with ASP.NET Core, following best practices for security and performance.
+  - **Entity Framework Core:** Used for data access, providing a seamless interaction between the application and SQL Server.
+  - **Authentication and Authorization:** Implemented secure login and user management using industry-standard practices.
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Node.js** and **npm**: To run the Angular application.
+- **SQL Server**: To manage the database.
+- **.NET Core SDK**: To build and run the C# backend.
